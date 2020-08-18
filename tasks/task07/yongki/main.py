@@ -38,7 +38,7 @@ async def get_courses(semester: Optional[SemesterData] = None) -> Dict[str, List
         tutee = course.select('td')[3].text
         tasks.setdefault(title, [tutor, tutee])
 
-    print(type(semester))
+    # print(type(semester))
     return tasks
 
 
