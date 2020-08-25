@@ -4,7 +4,7 @@ from biblebot import LmsAPI
 
 async def main():
     #LmsAPI.Login
-    resp = await LmsAPI.Login.fetch("chojam301", "durrkdcp0398")
+    resp = await LmsAPI.Login.fetch("", "")
     result = LmsAPI.Login.parse(resp)
     cookie = result.data["cookies"]
     print(result)
