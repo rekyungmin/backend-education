@@ -28,4 +28,3 @@ biblebot의 [intranet API](https://github.com/rekyungmin/biblebot-scraper/blob/m
 | `/course`    | 수강신청 강의의 상세정보를 가져옵니다. |
 
 
-
